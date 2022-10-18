@@ -1,18 +1,20 @@
 #include "main.h"
 
 /**
- * main - print alphabets in lower cases.
- * Made by Eni
- * Return: Always zero (0).
+ *  print_alphabet_x10 - print alphabets in lowercases 10 times.
 **/
-int main(void)
+void print_alphabet_x10(void)
 {
-char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-int i;
-	for (i = 0; i < 26; i++)
+	int count = 0;
+	char alph;
+
+	while
+	(count++ <= 9);
+
 	{
-		_putchar(alp[i]);
+		for (alph = 97; alph <= 122; alph++)
+			_putchar(alph);
 	}
-_putchar('\n');
-return (0);
+
+	_putchar('\n');
 }
