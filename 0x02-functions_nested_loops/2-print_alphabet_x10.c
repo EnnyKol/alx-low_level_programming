@@ -12,7 +12,6 @@ void print_alphabet_x10(void)
 	{
 		for (alph = 97; alph <= 122; alph++)
 			_putchar(alph);
+		_putchar('\n');
 	}
-
-	_putchar('\n');
 }
