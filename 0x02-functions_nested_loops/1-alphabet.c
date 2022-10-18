@@ -1,21 +1,16 @@
 #include "main.h"
 
 /**
- * main - print alphabets in lower cases.
- * Made by Eni
- * Return: Always zero (0).
+ * print_alphabet - print all alphabets in lowercases
 **/
-int main(void)
+void print_alphabet(void)
 {
-	char alp[26] =
-"abcdefghijklmnopqrstuvwxyz";
-	int l;
+	char alph;
 
-	for (l = 0; l < 26; l++)
+	for (alph = 97; alph <= 122; alph++)
 
 	{
-		_putchar(alp[l]);
+		_putchar(alph);
 	}
-	_putchar ('\n');
-	return (0);
+		_putchar('\n');
 }
